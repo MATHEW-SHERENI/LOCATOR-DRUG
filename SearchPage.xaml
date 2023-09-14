@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Locator.SearchPage"
+             BackgroundColor="DarkOrange">
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Type your medicine you are searching below to begin your search" TextColor="Black" FontAttributes="Italic"
+                   VerticalTextAlignment="Center" VerticalOptions="Center"></Label>
+            <SearchBar x:Name="Mysearchbar" TextColor="Black" BackgroundColor="Transparent" />
+            <ListView x:Name="MyPharmList"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
